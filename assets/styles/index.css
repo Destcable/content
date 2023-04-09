@@ -47,7 +47,21 @@ body {
     width: 50%;
     height: 200px;
     background-color: rgb(226, 226, 226);
-    margin-bottom: 75px;
+    margin-bottom: 150px;
+}
+
+.main__bg__form { 
+    display: flex;
+}
+
+
+.main__bg__forms__items input {
+    margin-right: 50px; 
+    /* box-shadow: 10px 5px 5px red; */
+    box-shadow: 10px 0px 0px red;
+    border-radius: 3px;
+    padding: 7px;
+    border: 0px;
 }
 
 @media (max-width: 750px) {
