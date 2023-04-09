@@ -98,6 +98,8 @@ body {
     margin-right: 20px;
 }
 
+.security__item img { width: 128px; height: 128px;}
+
 .main__news { 
     padding: 5px;
     background-color: rgb(236, 235, 235);
@@ -117,6 +119,8 @@ body {
 .news__item { 
     margin-right: 20px;
 }
+
+.news__item img { width: 128px; height: 128px; }
 
 .footer__main { 
     display: flex;
