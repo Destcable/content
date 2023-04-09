@@ -1,0 +1,69 @@
+body { 
+    margin: 0;
+    padding: 0;
+}
+
+.header__main { 
+    width: 75%;
+    margin: 0 auto;
+}
+
+.header__wraper { 
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    flex-direction: row;
+}
+
+.main__bg { 
+    /* background-image: url('https://images.unsplash.com/photo-1468818438311-4bab781ab9b8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FyJTIwdHJhdmVsfGVufDB8fDB8fA%3D%3D&w=1000&q=80'); */
+    background-image: url('https://www.mraristotle.com/wp-content/uploads/2020/12/Travelling-By-Car-On-Holiday.jpeg');
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+}
+
+.main_bg_wrapper { 
+    display: flex;
+    width: 100%;
+    height: 1000px;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.header__items a { 
+    color: rgb(108, 108, 108);
+    text-decoration: none;
+    margin-right: 25px;
+    font-weight: 600;
+}
+
+.header__items a:hover { 
+    color: black;
+}
+
+.form__control { 
+    width: 50%;
+    height: 200px;
+    background-color: rgb(226, 226, 226);
+    margin-bottom: 75px;
+}
+
+@media (max-width: 750px) {
+    .header__wraper { 
+        display: flex;
+        flex-direction: column;
+    }
+    .header__logo { 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header__items { 
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+}
