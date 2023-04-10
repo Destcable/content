@@ -19,28 +19,46 @@ body {
     align-items: center;
 }
 
-.block__register {
-    padding: 25px;
+.form__control { 
+    width: 28%;
+    background-color: rgb(239, 239, 239);
+    border-radius: 10px;
+}
+
+.main__bg__form { 
+    padding: 15px;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    align-items: center;  
-    border-radius: 10px;
-    background-color: rgb(239, 239, 239);
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-.block__register input { 
-    box-shadow: 0px 0px 10px rgb(202, 202, 202);
-    width: 450px;
-    border: none;
-    border-radius: 5px;
-    padding: 10px;
-    background-color: white;
+.register__item input { 
     margin: 10px 0px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgb(189, 188, 188);
+    border: none;
+}
+
+.main__bg__form button { 
+    width: 100%;
+    margin-top: 10px;
 }
 
 
-@media (ma) {
-    
+@media (max-width: 950px) {
+    .form__control { 
+        width: 68%;
+    }
+    .main__bg__form { 
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .register__item input { 
+        width: 100%;
+    }
 }
