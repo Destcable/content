@@ -3,16 +3,44 @@ body {
     padding: 0;
 }
 
-.block__registration {
-    width: 75%;
-    margin: auto;
+.button__primary { 
+    cursor: pointer;
+    background-color: rgb(5, 159, 249);
+    padding: 13px;
+    border-radius: 5px;
+    color: white;
+    border: 0;
+}
+
+.wrapper { 
+    display: flex;
+    height: 100vh;
     justify-content: center;
     align-items: center;
 }
 
-.block__wrapper {
+.block__register {
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
     border-radius: 10px;
-    padding: 30px;
-    width: 100%;
-    background-color: aqua;
+    background-color: rgb(239, 239, 239);
+}
+
+.block__register input { 
+    box-shadow: 0px 0px 10px rgb(202, 202, 202);
+    width: 450px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+    margin: 10px 0px;
+}
+
+
+@media (ma) {
+    
 }
